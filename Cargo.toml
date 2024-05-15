@@ -1,0 +1,10 @@
+[package]
+name = "duckdb-rs-motherduck"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+duckdb = { version = "0.10.2", features = ["bundled"]}
+
+# [patch.crates-io]
+# duckdb = { path = "../duckdb-rs" }
